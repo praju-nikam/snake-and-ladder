@@ -6,7 +6,7 @@ public class rollDie
 {
     public static void main(String args[])
     {
-        for(int i= 0;i<20;i++)
+        for(int i= 0;i<6;i++)
         {
             Random r = new Random();
             int result = r.nextInt(6) + 1;
